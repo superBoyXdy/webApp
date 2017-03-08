@@ -1,0 +1,185 @@
+html,body,nav,section,div{
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color: #fafafa;
+}
+.index{
+    margin: 0;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+} 
+.index i{
+    padding: 2px;
+    margin:0 10px;
+    width: 10%;
+    height: 35px;
+    line-height: 35px;
+    float: left;
+    background-color: inherit;
+}
+.index p{
+    margin: 0;
+    font-size: 1.2em;
+    width: 72%;
+    height: 35px;
+    line-height: 35px;
+    float: left;
+}
+#head{
+    padding: 5px 10px;
+}
+#title{
+    text-align: center;
+}
+#section{
+    margin-top: 47px;
+    width: 100%;
+    height: 624px;
+    background-color:#f1f1f1;
+}
+#section iframe{
+    width: 100%;
+    height: 624px;
+}
+.page{
+    width: 1190.94281098546px;
+    height: 624px;
+}
+.page img{
+    width: 100%;
+    height: 100%;
+}
+#footer{
+    height: 65px;
+    width: 100%;
+    background-color:rgba(255,255,255,.5);
+    position:fixed;
+    z-index: 10000;
+    bottom: 0;
+}
+.bottom{
+    width: 100%;
+    height: 100%;
+}
+.bottom-location{
+    width: 100%;
+}
+.icon-button{
+    display: block;
+    float: left;
+    padding-top: 2px;
+    width: 24.99999%;
+    height: 100%;
+}
+.icon-button p{
+    padding: 5px 0;
+    color: #333;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Microsoft YaHei UI";
+}
+.location-icon{
+    display: block;
+    height: 35px;
+    width: 35px;
+    background: url("../img/demo-3.png") no-repeat;
+}
+.bottom-location a:nth-child(1) i{
+    background-position: -2.5px -2.5px;
+}
+.bottom-location a:nth-child(2) i{
+    background-position: -42.5px -2.5px;
+}
+.bottom-location a:nth-child(3) i{
+    background-position: -82.5px -2.5px;
+}
+.bottom-location a:nth-child(4) i{
+    background-position: -122.5px -2.5px;
+}
+
+/*以下是登录界面的css*/
+.login-head img{
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+.login-camera{
+    display: block;
+}
+.camera{
+    display: block;
+    width: 45px;
+    height: 45px;
+    background: url("../img/icon.png") no-repeat -542px -582px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.font{
+    font-family: 微软雅黑;
+}
+.login-form{
+}
+.input{
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    margin-top: 3px;
+    margin-bottom: 21px;
+}
+.login-but{
+    width: 165px;
+    height: 33px;
+    text-align: center;
+    line-height: 33px;
+    font-size: 16px;
+    background-color: rebeccapurple;
+    color: #ffffff;
+}
+.sign-in p{
+    margin-top: 13px;
+}
+.line{
+    text-align: center;
+    font-size: 14px;
+}
+.line:before{
+    display: inline-block;
+    position: relative;
+    top:-5px;
+    right: 13px;
+    content: "";
+    width: 60px;
+    height: 0;
+    border: 0.5px solid #454487;
+}
+.line:after{
+    display: inline-block;
+    position: relative;
+    top:-5px;
+    left: 13px;
+    content: "";
+    width: 60px;
+    color: #454487;
+    height: 0px;
+    border: 0.5px solid #454487;
+}
+.error{
+    text-align: center;
+    color: red;
+    padding-top: 5px;
+}
+.other-icon{
+    text-align: center;
+}
+.login-QQ{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-right: 3px;
+    background: url("../img/icon.png") no-repeat -38px -883px;
+}
