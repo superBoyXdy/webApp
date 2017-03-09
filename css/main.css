@@ -1,8 +1,8 @@
 @charset "UTF-8";
-html{
+html {
   font-size: 12px;
-  font-family: "Microsoft YaHei";
-}
+  font-family: "Microsoft YaHei"; }
+
 html, body, nav, section, div {
   margin: 0;
   padding: 0; }
@@ -59,9 +59,8 @@ body {
   width: 100%;
   height: 100%; }
 
-
 /*/////////////////////////////////悬浮框属性//////////////////////*/
-.su-win{
+.su-win {
   width: 96%;
   max-height: 250px;
   height: 220px;
@@ -69,71 +68,70 @@ body {
   bottom: 200px;
   left: 2%;
   overflow: hidden;
-  visibility: hidden;
-}
-.Suspension{
-	width:100%;
-	height:220px;
-	border:#069 solid 1px;
-	border-radius:10px;
-  background-color:rgba(255,255,255,.7);
-  display: none;
-}
-.Suspension img{
-	padding:25px 8px;
-	width:100%;
+  visibility: hidden; }
+
+.Suspension {
+  width: 100%;
   height: 220px;
-  opacity: 0.95;
-}
-.Suspension a{
+  border: #069 solid 1px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: none; }
+
+.Suspension img {
+  padding: 25px 8px;
+  width: 100%;
+  height: 220px;
+  opacity: 0.95; }
+
+.Suspension a {
   margin: 0 auto;
-  width:110px;
-	height:20px;
-  line-height:20px;
-	background-color:#AE0000;
-	font: '宋体' 1.1em bold;
-	color:#FFF;
-	text-align:center;
-	display:block;
-}
-.Suspensionleft{
-	width:39.99999%;
-	height:100%;
-	padding:10px;
-	float:left;
-}
-.Suspensionright{
-	width:59.99999%;
-	height:100%;
-	float:left;
-	}
-.Suspensionleft>h2{
+  width: 110px;
+  height: 20px;
+  line-height: 20px;
+  background-color: #AE0000;
+  font: '宋体' 1.1em bold;
+  color: #FFF;
+  text-align: center;
+  display: block; }
+
+.Suspensionleft {
+  width: 39.99999%;
+  height: 100%;
+  padding: 10px;
+  float: left; }
+
+.Suspensionright {
+  width: 59.99999%;
+  height: 100%;
+  float: left; }
+
+.Suspensionleft > h2 {
   margin: 0;
   text-align: center;
   font-size: 1.3em;
-	font:bold 宋体;
-	color:#AE0000;
+  font: bold 宋体;
+  color: #AE0000;
   height: 20px;
   line-height: 20px;
-  overflow: hidden;
-	}
-.Suspensionleft>p{
+  overflow: hidden; }
+
+.Suspensionleft > p {
   margin: 0;
-	font-family: 'PingFangSC-Ultralight, sans-serif';
-	font-size:12px;
+  font-family: 'PingFangSC-Ultralight, sans-serif';
+  font-size: 12px;
   line-height: 20px;
   text-indent: 2em;
   height: 160px;
   overflow: hidden;
-	color:#333;
-	}
-.point .Suspension{
-	display:none;
-	}
-.point:hover .Suspension{
-	position:absolute;
-	display:block;
-}
+  color: #333; }
+
+.point .Suspension {
+  display: none; }
+
+.point:hover .Suspension {
+  position: absolute;
+  display: block; }
 
 #footer {
   height: 65px;
