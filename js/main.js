@@ -27,6 +27,7 @@ $(function(){
         $suspension.eq($index-1).show();
         return false;
     })
+    
     $suspension.find('a').bind('click',function(){
         $su_win.css('visibility','hidden');
         $suspension.hide();

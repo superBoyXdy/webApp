@@ -5,12 +5,28 @@ $("#login_button").click(function () {
     var username = $("#user").val();
     var password = $("#password").val();
     if(username == ""){
-        $("#errorMessage").html("用户名不能为空");
+        $("#errorMessage").html("用户名不得为空");
     }else if(password== ""){
-        $("#errorMessage").html("密码不能为空");
+        $("#errorMessage").html("密码不得为空");
     }
     else{
-        $("#errorMessage").html("正在登录...");
-        window.location.href = "index.html"
+        $("#errorMessage").html("请稍等!");
+        window.location.href = "./main.html"
     }
+});
+//侧边栏js
+$(function(){
+    slider = $("#slider").slideReveal({
+        width: "250px",
+        //push: false,
+        position: "left",
+        speed: 400,
+        trigger: $("#trigger"),
+        // autoEscape: false,
+        overlay: true
+        
+    });
+    $('#trigger').bind('click',setTimeout(function(){
+        $("#slider").show();
+    }),400);
 });

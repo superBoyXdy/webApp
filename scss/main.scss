@@ -182,81 +182,163 @@ body {
 .bottom-location a:nth-child(4) i {
   background-position: -122.5px -2.5px; }
 
+/*侧边栏css*/
+
+.slider{
+    display: none;
+}
+.sidebar-img{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    background-color: #069;
+    // background: url("../img/login-1.png") no-repeat;
+    background-size:cover;
+}
+.fa-paper-plane-o,.fa-heart-o{
+    color: #0f0f0f;
+}
+.tou img{
+    width: 85px;
+    height: 85px;
+    margin-top: 50px;
+}
+.tou p{
+    color: white;
+    font-size: 15px;
+}
+.tou span{
+    display: block;
+    color: white;
+    font-size: 13px;
+}
+.sidebar-list li{
+    display:flex;
+    width: 100%;
+    margin: 15px 10px 15px 0;
+
+}
+.sidebar-list span{
+    line-height: 30px;
+}
+.sidebar-list i{
+    margin-left: 16px;
+    margin-right: 15px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 50px;
+    background: url("../img/icon.png") no-repeat -183px -461px;
+}
+.sidebar-list a:nth-child(2) i{
+    background-position: -286px -461px;
+}
+.sidebar-list a:nth-child(3) i{
+    background-position: -391px -461px;
+}
+.sidebar-list a:nth-child(4) i{
+    background-position: -498px -458px;
+}
+.sidebar-list a:nth-child(5) i{
+    background-position: -594px -455px;
+}
+.sidebar-list a:nth-child(6) i{
+    background-position: 3px -578px;
+}
+.sidebar-list a:nth-child(7) i{
+    background-position: -109px -578px;
+}
+.sidebar-list a:nth-child(6) li{
+    border-top: 1px solid #5e5e5e;
+    padding-top: 10px;
+}
+.sidebar-list a{
+    font-size: 15px;
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    color: #0f0f0f;
+}
+
+
 /*以下是登录界面的css*/
-.login-head img {
-  width: 100%;
-  text-align: center;
-  display: block; }
-
-.login-camera {
-  display: block; }
-
-.camera {
-  display: block;
-  width: 45px;
-  height: 45px;
-  background: url("../img/icon.png") no-repeat -542px -582px;
-  border-radius: 10px;
-  margin-top: 15px; }
-
-.font {
-  font-family: 微软雅黑; }
-
-.input {
-  width: 200px;
-  height: 30px;
-  font-size: 15px;
-  margin-top: 3px;
-  margin-bottom: 21px; }
-
-.login-but {
-  width: 165px;
-  height: 33px;
-  text-align: center;
-  line-height: 33px;
-  font-size: 16px;
-  background-color: rebeccapurple;
-  color: #ffffff; }
-
-.sign-in p {
-  margin-top: 13px; }
-
-.line {
-  text-align: center;
-  font-size: 14px; }
-
-.line:before {
-  display: inline-block;
-  position: relative;
-  top: -5px;
-  right: 13px;
-  content: "";
-  width: 60px;
-  height: 0;
-  border: 0.5px solid #454487; }
-
-.line:after {
-  display: inline-block;
-  position: relative;
-  top: -5px;
-  left: 13px;
-  content: "";
-  width: 60px;
-  color: #454487;
-  height: 0px;
-  border: 0.5px solid #454487; }
-
-.error {
-  text-align: center;
-  color: red;
-  padding-top: 5px; }
-
-.other-icon {
-  text-align: center; }
-
-.login-QQ {
-  display: block;
-  width: 40px;
-  height: 40px;
-  margin-right: 3px;
-  background: url("../img/icon.png") no-repeat -38px -883px; }
+.login-head img{
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+.login-camera{
+    display: block;
+}
+.camera{
+    display: block;
+    width: 45px;
+    height: 45px;
+    background: url("../img/icon.png") no-repeat -542px -582px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.font{
+    font-family: 微软雅黑;
+}
+.login-form{
+}
+.input{
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    margin-top: 3px;
+    margin-bottom: 21px;
+}
+.login-but{
+    width: 165px;
+    height: 33px;
+    text-align: center;
+    line-height: 33px;
+    font-size: 16px;
+    background-color: rebeccapurple;
+    color: #ffffff;
+}
+.sign-in p{
+    margin-top: 13px;
+}
+.line{
+    text-align: center;
+    font-size: 14px;
+}
+.line:before{
+    display: inline-block;
+    position: relative;
+    top:-5px;
+    right: 13px;
+    content: "";
+    width: 60px;
+    height: 0;
+    border: 0.5px solid #454487;
+}
+.line:after{
+    display: inline-block;
+    position: relative;
+    top:-5px;
+    left: 13px;
+    content: "";
+    width: 60px;
+    color: #454487;
+    height: 0px;
+    border: 0.5px solid #454487;
+}
+.error{
+    text-align: center;
+    color: red;
+    padding-top: 5px;
+}
+.other-icon{
+    text-align: center;
+}
+.login-QQ{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-right: 3px;
+    background: url("../img/icon.png") no-repeat -38px -883px;
+}
