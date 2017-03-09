@@ -1,4 +1,7 @@
 $(function(){
+    $('html,body').animate({
+        scrollLeft: $(document.body).scrollLeft()+300,
+        scrollTop: $(document.body).scrollTop()+20}, 0);
     //在父窗口获取悬浮窗父元素
     var $su_win = $(window.parent.document).find('.su-win');
     //在父窗口获取每个悬浮窗元素
