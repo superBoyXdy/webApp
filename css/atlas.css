@@ -462,7 +462,9 @@ top:340.6px;
 }
 
 /*/////////////////////////////////悬浮框属性//////////////////////*/
+
 .Suspension{
+	position: fixed;/*2017.3.8 22：40*/
 	width:550px;
 	height:300px;
 	border:#069 solid 2px;
