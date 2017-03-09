@@ -1,22 +1,33 @@
 @charset "utf-8";
 /* CSS Document */
-*{
-	padding:0px;
-	margin:0px;}
+html,body,div,p,strong{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 12px;
+	font-family: 'Microsoft YaHei';
+}
 .Particulars{
 	height:100%;
-	width:100%;}
+	width:100%;
+	background-color: #fff;
+}
 .Particulars p{
-	font:宋体 14px bold italic;
-	color:#666;
-	margin:10px 40px;}
+	font-size: 1.3em;
+	color:#555;
+	padding:10px 40px;}
 .Particulars strong{
 	color:#000;}
 .Particularstop{
-	border-bottom:#999 6px solid;
-	width:100%;}
-.Particularsbottom{
-	width:100%;}
+	margin-bottom: 10px;
+}
+.Particularstop,.Particularsbottom{
+	width:100%;
+	background-color: #f9f9f9;
+}
 .Particulars img{
 	height:100%;
-	width:100%;}
+	width:100%;
+	transform: scale(1.01,1.01);
+}
