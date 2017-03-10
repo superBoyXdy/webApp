@@ -11,7 +11,7 @@ $("#login_button").click(function () {
     }
     else{
         $("#errorMessage").html("请稍等!");
-        window.location.href = "./main.html"
+        window.location.href = "./index.html"
     }
 });
 //侧边栏js
