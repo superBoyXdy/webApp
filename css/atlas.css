@@ -20,7 +20,9 @@ a{
     background-size:cover;/*调动浏览器百分比背景图会跟着变化*/
 }
 /*//////////////////////////////////圈点属性////////////////////////////*/
-
+.point{
+	transform: scale(.3,.3);
+}
 .point>a{
 	display:block;
 	background-color:rgba(255,255,255,0.7);
@@ -32,7 +34,7 @@ a{
 	border:#18B0AB 1px solid;
 	border-radius:100%;
 	text-align:center;
-	transform: scale(.3,.3);
+	/*transform: scale(.3,.3);*/
 	}
 	 /*圆圈要给固定值不然会随着浏览器百分比变化而变化*/
 .point:nth-child(2){
