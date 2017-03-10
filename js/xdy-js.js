@@ -5,12 +5,12 @@ $("#login_button").click(function () {
     var username = $("#user").val();
     var password = $("#password").val();
     if(username == ""){
-        $("#errorMessage").html("用户名不得为空");
+        $("#errorMessage").html("请输入用户名");
     }else if(password== ""){
-        $("#errorMessage").html("密码不得为空");
+        $("#errorMessage").html("请输入密码");
     }
     else{
-        $("#errorMessage").html("请稍等!");
+        $("#errorMessage").html("登入中...");
         window.location.href = "./index.html"
     }
 });
