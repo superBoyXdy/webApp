@@ -228,13 +228,14 @@ body {
     height: 50px;
     width: 100%;
     display: block;
-    background-color: inherit;
+    background-color: #fff;
 }
 .sidebar-list i{
     margin: 10px 15px;
     width: 30px;
     height: 30px;
     background: url("../img/icon.png") no-repeat -183px -461px;
+    background-color: #fff;
     display: inline-block;
     vertical-align: top;
 }
@@ -243,6 +244,7 @@ body {
   line-height: 50px;
   display: inline-block;
   vertical-align: top;
+  background-color: #fff;
 }
 
 .sidebar-list a:nth-child(2) i{
