@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0px;
+	margin:0px;}
+.Particulars{
+	width: 100%;
+	position:relative;
+}
+.Particulars a{
+	text-decoration:none;
+	position:absolute;
+	z-index:99;
+	width:30px;
+	height:0px;
+	right:80px;
+	background:url(../img/love.png) no-repeat 0 0;}
+.Particulars a:hover{
+	width:30px;
+	height:0px;
+	background:url(../img/love.png) no-repeat -44.5px 0;}
+.Particulars p{
+	color:#666;
+	margin:10px 10px;
+}
+.Particulars strong{
+	color:#000;
+}
+.Particularstop{
+	width:100%;
+	position:relative;
+}
+.Particularstop p{
+	font-size:20px;}
+.Particularsbottom p{
+	text-indent:1.5em;
+	font-size:18px;
+	line-height:25px;
+}
+.Particulars img{
+	margin-left: 10px;
+}
